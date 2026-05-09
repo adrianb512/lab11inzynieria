@@ -6,7 +6,7 @@ on:
 # under job key we define the names and jobs definitions, typically as multiple steps
 # e.g. what commands to run, what environment to set
 jobs:
-  # our job name: `hello-world-job`
+  # our job name: `hello-world-job`kjkhkj
   hello-world-job:
     # our job definition
     runs-on: ... # here, define image on which we will run our job
