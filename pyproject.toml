@@ -3,7 +3,11 @@ name = "lab11-sentiment"
 version = "0.1.0"
 description = "Lab 11 - zero-shot sentiment classifier deployed to AWS Lambda via SAM"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "sentencepiece>=0.2.1",
+    "torch>=2.11.0",
+    "transformers>=5.8.0",
+]
 
 [dependency-groups]
 integration = [
